@@ -1,0 +1,19 @@
+{
+  "name": "toro-test-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcelomcdev/toro-test-backend.git"
+  },
+  "author": "Marcelo Martins de Castro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcelomcdev/toro-test-backend/issues"
+  },
+  "homepage": "https://github.com/marcelomcdev/toro-test-backend#readme"
+}
