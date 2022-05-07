@@ -3,7 +3,7 @@ class LoginRouter {
         if(!httpRequest.body.email || !httpRequest.body.password){
             return{
                 statusCode: 400
-            }
+            } 
         }
     }
 }
