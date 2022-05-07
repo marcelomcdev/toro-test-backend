@@ -16,18 +16,6 @@
       "jest"
     ]
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lintStaged":{
-    "*.js": [
-      "standard --fix",
-      "npm run test:staged",
-      "git add"
-    ]
-  },
   "author": "Marcelo Martins de Castro",
   "license": "ISC",
   "bugs": {
