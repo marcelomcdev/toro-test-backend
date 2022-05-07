@@ -10,6 +10,11 @@
     "type": "git",
     "url": "git+https://github.com/marcelomcdev/toro-test-backend.git"
   },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  },
   "author": "Marcelo Martins de Castro",
   "license": "ISC",
   "bugs": {
@@ -23,6 +28,8 @@
   "dependencies": {
     "express": "^4.18.1",
     "jest": "^28.1.0",
-    "mongoose": "^6.3.2"
+    "mongoose": "^6.3.2",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
   }
 }
