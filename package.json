@@ -15,17 +15,6 @@
   "bugs": {
     "url": "https://github.com/marcelomcdev/toro-test-backend/issues"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.js": [
-      "standard --fix",
-      "git add"
-    ]
-  },
   "homepage": "https://github.com/marcelomcdev/toro-test-backend#readme",
   "devDependencies": {
     "lint-staged": "^12.4.1",
