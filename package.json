@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --watchAll",
+    "test:staged": "jest"
   },
   "repository": {
     "type": "git",
@@ -13,6 +14,18 @@
   "standard": {
     "env": [
       "jest"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lintStaged":{
+    "*.js": [
+      "standard --fix",
+      "npm run test:staged",
+      "git add"
     ]
   },
   "author": "Marcelo Martins de Castro",
